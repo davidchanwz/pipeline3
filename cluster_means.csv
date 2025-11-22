@@ -1,0 +1,56 @@
+,Cluster_1,Cluster_2
+TOPIC - Aptitude-based Admissions and Selection Criteria,0.0,0.04
+TOPIC - Curriculum Diversification and Evolution,0.0,0.1
+TOPIC - Graduate Employment Outcomes,0.0,0.08
+TOPIC - Societal Impact and Collaborative R&D,0.0,0.16
+TOPIC - Student Engagement in the Arts,0.0,0.04
+TOPIC - Student Mobility Opportunities,0.0,0.16
+TOPIC - University Experience Dynamics,0.0,0.04
+TOPIC - University Rankings,0.18,0.0
+BENEFIT_ATTRIBUTION - Collaborative Educational Expertise,0.0,0.04
+BENEFIT_ATTRIBUTION - Educational Institutions and Governance Recognition,0.0,0.12
+BENEFIT_ATTRIBUTION - Employer Perception of International Experience,0.0,0.04
+BENEFIT_ATTRIBUTION - Employer Roles in Recruitment and Retention,0.0,0.04
+BENEFIT_ATTRIBUTION - Government Support and Commitment,0.0,0.1
+BENEFIT_ATTRIBUTION - Positive Educational Outcomes,0.0,0.1
+BENEFIT_ATTRIBUTION - Positive Institutional and Graduate Contributions,0.08,0.0
+BENEFIT_ATTRIBUTION - Recognition of Institutional Contributions and Innovations,0.0,0.2
+BENEFIT_ATTRIBUTION - Support for Graduate Employability and Positive Outcomes,0.0,0.1
+BENEFIT_ATTRIBUTION - University Support Initiatives,0.0,0.12
+RISK_ATTRIBUTION - Admission Barriers Criticism,0.0,0.04
+RISK_ATTRIBUTION - Challenges in Educational Transitions,0.0,0.1
+RISK_ATTRIBUTION - External Challenges in Design Education,0.0,0.04
+RISK_ATTRIBUTION - Financial Affordability Concerns,0.0,0.04
+RISK_ATTRIBUTION - Internship Equity Issues,0.0,0.04
+RISK_ATTRIBUTION - Labor Market Pressures,0.0,0.08
+RISK_ATTRIBUTION - Labor Market Risks,0.0,0.04
+RISK_ATTRIBUTION - Quality and Ranking Concerns,0.1,0.0
+BENEFIT_EVALUATION - Curriculum Innovation and Relevance,0.0,0.04
+BENEFIT_EVALUATION - Demand for Skilled Computing Graduates and Industry Alignment,0.0,0.04
+BENEFIT_EVALUATION - Economic and Societal Benefits of Design,0.0,0.04
+BENEFIT_EVALUATION - Global Engagement and Competitiveness Benefits,0.0,0.12
+BENEFIT_EVALUATION - Innovation and Economic Growth,0.0,0.06
+BENEFIT_EVALUATION - Positive Developments in Higher Education,0.0,0.06
+BENEFIT_EVALUATION - Positive Job Outcomes,0.0,0.08
+BENEFIT_EVALUATION - Positive Salary Outcomes for Graduates,0.0,0.08
+BENEFIT_EVALUATION - Positive Societal and Educational Benefits,0.0,0.12
+BENEFIT_EVALUATION - Research and Community Innovation Value,0.06,0.0
+BENEFIT_EVALUATION - Skill Development and Career Pathways,0.0,0.1
+BENEFIT_EVALUATION - Student Well-Being Enhancement,0.0,0.06
+BENEFIT_EVALUATION - Student-Centric Arts Programming,0.0,0.06
+BENEFIT_EVALUATION - Trust and Collaboration,0.0,0.04
+BENEFIT_EVALUATION - University Rankings and Recognition,0.12,0.0
+RISK_EVALUATION - Challenges in Education Accessibility,0.0,0.08
+RISK_EVALUATION - Concerns About Employment and Job Security,0.0,0.1
+RISK_EVALUATION - Concerns Over Educational Activities,0.0,0.1
+RISK_EVALUATION - Dependence on Simplistic Solutions,0.0,0.04
+RISK_EVALUATION - Educational and Financial Stress Risks,0.0,0.18
+"RISK_EVALUATION - Impact of Grading, Rankings, and Academic Pressure",0.16,0.0
+RISK_EVALUATION - Potential Challenges in Collaborative Research,0.0,0.08
+RISK_EVALUATION - Rankings Limitations and Methodology,0.04,0.0
+TREATMENT - Call for Lifelong Learning and Curriculum Reformation,0.0,0.04
+TREATMENT - Interdisciplinary Learning and Collaboration,0.0,0.1
+TREATMENT - Support for Inclusive Evaluation and Community Engagement,0.0,0.08
+TREATMENT - Supportive Actions in Higher Education and Employment Outcomes,0.0,0.06
+TREATMENT - Supportive Educational and Entrepreneurial Ecosystem,0.0,0.26
+TREATMENT - Supportive Views on Education System,0.14,0.0

@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cluster Means Visualization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #f8f9fa;
+            font-weight: bold;
+            color: #333;
+        }
+        .function-header {
+            background-color: #e9ecef;
+            font-weight: bold;
+            text-align: left;
+            padding-left: 15px;
+        }
+        .value-cell {
+            font-weight: bold;
+            color: white;
+            position: relative;
+        }
+        .legend {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        .legend-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .legend-scale {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .color-bar {
+            width: 200px;
+            height: 20px;
+            background: linear-gradient(to right, #fff3cd, #ffeaa7, #fdcb6e, #e17055, #d63031);
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cluster Means by Function</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Function</th><th>Cluster_1</th><th>Cluster_2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="function-header">TOPIC - Aptitude-based Admissions and Selection Criteria</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.040</td></tr>
+                <tr>
+                    <td class="function-header">TOPIC - Curriculum Diversification and Evolution</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.100</td></tr>
+                <tr>
+                    <td class="function-header">TOPIC - Graduate Employment Outcomes</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.080</td></tr>
+                <tr>
+                    <td class="function-header">TOPIC - Societal Impact and Collaborative R&D</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(225, 112, 85); color: white;">0.160</td></tr>
+                <tr>
+                    <td class="function-header">TOPIC - Student Engagement in the Arts</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.040</td></tr>
+                <tr>
+                    <td class="function-header">TOPIC - Student Mobility Opportunities</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(225, 112, 85); color: white;">0.160</td></tr>
+                <tr>
+                    <td class="function-header">TOPIC - University Experience Dynamics</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.040</td></tr>
+                <tr>
+                    <td class="function-header">TOPIC - University Rankings</td><td class="value-cell" style="background-color: rgb(225, 112, 85); color: white;">0.180</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_ATTRIBUTION - Collaborative Educational Expertise</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.040</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_ATTRIBUTION - Educational Institutions and Governance Recognition</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(253, 203, 110); color: #333;">0.120</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_ATTRIBUTION - Employer Perception of International Experience</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.040</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_ATTRIBUTION - Employer Roles in Recruitment and Retention</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.040</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_ATTRIBUTION - Government Support and Commitment</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.100</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_ATTRIBUTION - Positive Educational Outcomes</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.100</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_ATTRIBUTION - Positive Institutional and Graduate Contributions</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.080</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_ATTRIBUTION - Recognition of Institutional Contributions and Innovations</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(225, 112, 85); color: white;">0.200</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_ATTRIBUTION - Support for Graduate Employability and Positive Outcomes</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.100</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_ATTRIBUTION - University Support Initiatives</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(253, 203, 110); color: #333;">0.120</td></tr>
+                <tr>
+                    <td class="function-header">RISK_ATTRIBUTION - Admission Barriers Criticism</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.040</td></tr>
+                <tr>
+                    <td class="function-header">RISK_ATTRIBUTION - Challenges in Educational Transitions</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.100</td></tr>
+                <tr>
+                    <td class="function-header">RISK_ATTRIBUTION - External Challenges in Design Education</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.040</td></tr>
+                <tr>
+                    <td class="function-header">RISK_ATTRIBUTION - Financial Affordability Concerns</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.040</td></tr>
+                <tr>
+                    <td class="function-header">RISK_ATTRIBUTION - Internship Equity Issues</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.040</td></tr>
+                <tr>
+                    <td class="function-header">RISK_ATTRIBUTION - Labor Market Pressures</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.080</td></tr>
+                <tr>
+                    <td class="function-header">RISK_ATTRIBUTION - Labor Market Risks</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.040</td></tr>
+                <tr>
+                    <td class="function-header">RISK_ATTRIBUTION - Quality and Ranking Concerns</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.100</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_EVALUATION - Curriculum Innovation and Relevance</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.040</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_EVALUATION - Demand for Skilled Computing Graduates and Industry Alignment</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.040</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_EVALUATION - Economic and Societal Benefits of Design</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.040</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_EVALUATION - Global Engagement and Competitiveness Benefits</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(253, 203, 110); color: #333;">0.120</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_EVALUATION - Innovation and Economic Growth</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.060</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_EVALUATION - Positive Developments in Higher Education</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.060</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_EVALUATION - Positive Job Outcomes</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.080</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_EVALUATION - Positive Salary Outcomes for Graduates</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.080</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_EVALUATION - Positive Societal and Educational Benefits</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(253, 203, 110); color: #333;">0.120</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_EVALUATION - Research and Community Innovation Value</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.060</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_EVALUATION - Skill Development and Career Pathways</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.100</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_EVALUATION - Student Well-Being Enhancement</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.060</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_EVALUATION - Student-Centric Arts Programming</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.060</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_EVALUATION - Trust and Collaboration</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.040</td></tr>
+                <tr>
+                    <td class="function-header">BENEFIT_EVALUATION - University Rankings and Recognition</td><td class="value-cell" style="background-color: rgb(253, 203, 110); color: #333;">0.120</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td></tr>
+                <tr>
+                    <td class="function-header">RISK_EVALUATION - Challenges in Education Accessibility</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.080</td></tr>
+                <tr>
+                    <td class="function-header">RISK_EVALUATION - Concerns About Employment and Job Security</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.100</td></tr>
+                <tr>
+                    <td class="function-header">RISK_EVALUATION - Concerns Over Educational Activities</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.100</td></tr>
+                <tr>
+                    <td class="function-header">RISK_EVALUATION - Dependence on Simplistic Solutions</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.040</td></tr>
+                <tr>
+                    <td class="function-header">RISK_EVALUATION - Educational and Financial Stress Risks</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(225, 112, 85); color: white;">0.180</td></tr>
+                <tr>
+                    <td class="function-header">RISK_EVALUATION - Impact of Grading, Rankings, and Academic Pressure</td><td class="value-cell" style="background-color: rgb(225, 112, 85); color: white;">0.160</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td></tr>
+                <tr>
+                    <td class="function-header">RISK_EVALUATION - Potential Challenges in Collaborative Research</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.080</td></tr>
+                <tr>
+                    <td class="function-header">RISK_EVALUATION - Rankings Limitations and Methodology</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.040</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td></tr>
+                <tr>
+                    <td class="function-header">TREATMENT - Call for Lifelong Learning and Curriculum Reformation</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.040</td></tr>
+                <tr>
+                    <td class="function-header">TREATMENT - Interdisciplinary Learning and Collaboration</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.100</td></tr>
+                <tr>
+                    <td class="function-header">TREATMENT - Support for Inclusive Evaluation and Community Engagement</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.080</td></tr>
+                <tr>
+                    <td class="function-header">TREATMENT - Supportive Actions in Higher Education and Employment Outcomes</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(255, 234, 167); color: #333;">0.060</td></tr>
+                <tr>
+                    <td class="function-header">TREATMENT - Supportive Educational and Entrepreneurial Ecosystem</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td><td class="value-cell" style="background-color: rgb(214, 48, 49); color: white;">0.260</td></tr>
+                <tr>
+                    <td class="function-header">TREATMENT - Supportive Views on Education System</td><td class="value-cell" style="background-color: rgb(253, 203, 110); color: #333;">0.140</td><td class="value-cell" style="background-color: rgb(255, 243, 205); color: #333;">0.000</td></tr>
+            </tbody>
+        </table>
+        
+        <div class="legend">
+            <div class="legend-title">Color Scale</div>
+            <div class="legend-scale">
+                <span>Low (0.000)</span>
+                <div class="color-bar"></div>
+                <span>High (0.260)</span>
+            </div>
+            <p><strong>Interpretation:</strong> Higher values (darker colors) indicate that codes of this function appear more frequently in articles assigned to this cluster.</p>
+        </div>
+        
+        <div style="margin-top: 20px; padding: 10px; background-color: #e3f2fd; border-radius: 5px;">
+            <strong>Data source:</strong> cluster_means_gpt.csv<br>
+            <strong>Functions:</strong> 55 frame functions<br>
+            <strong>Clusters:</strong> 2 clusters identified
+        </div>
+    </div>
+</body>
+</html>

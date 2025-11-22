@@ -1,0 +1,50 @@
+,Cluster_1,Cluster_2
+TOPIC - Collaborative Design Education,0.04,0.0
+TOPIC - Collaborative Research & Expansion,0.06,0.0
+TOPIC - Curriculum Development,0.04,0.0
+TOPIC - Entrepreneurship in Higher Education,0.04,0.0
+TOPIC - Graduate Employment Outcomes,0.04,0.0
+TOPIC - Graduate Salaries,0.04,0.0
+TOPIC - Holistic Education,0.06,0.0
+TOPIC - Ranking Methodology,0.04,0.0
+TOPIC - Research on Global Challenges,0.04,0.0
+TOPIC - Student Career Development & Global Experience,0.1,0.0
+TOPIC - Student Priorities and Preferences,0.04,0.0
+TOPIC - Universities' Societal Role & Partnerships,0.08,0.0
+TOPIC - University Rankings & Competition,0.16,0.0
+"BENEFIT_ATTRIBUTION - Benefit Sources (Government, Institutions, and Others)",0.08,0.0
+BENEFIT_ATTRIBUTION - Government Support for Higher Education,0.06,0.0
+BENEFIT_ATTRIBUTION - Industry and Economic Benefits,0.06,0.0
+BENEFIT_ATTRIBUTION - University Benefits & Contributions,0.0,0.28
+BENEFIT_ATTRIBUTION - University Benefits & Initiatives,0.22,0.0
+BENEFIT_ATTRIBUTION - University Benefits & Societal Impact,0.06,0.0
+BENEFIT_ATTRIBUTION - University Contributions & Student Benefits,0.1,0.0
+BENEFIT_ATTRIBUTION - University Leadership & Outcomes,0.06,0.0
+RISK_ATTRIBUTION - Risk Attribution: Universities & Inequality,0.04,0.0
+BENEFIT_EVALUATION - Economic & Innovation Impact,0.16,0.0
+BENEFIT_EVALUATION - Freshman Transition,0.04,0.0
+BENEFIT_EVALUATION - Global Perspective and Reach,0.12,0.0
+BENEFIT_EVALUATION - Graduate Employment & Market Stability,0.0,0.2
+BENEFIT_EVALUATION - Industry Alignment & Skills,0.04,0.0
+BENEFIT_EVALUATION - Interdisciplinary Approaches & Learning,0.04,0.0
+BENEFIT_EVALUATION - Job Market Benefits & Industry Demand,0.06,0.0
+BENEFIT_EVALUATION - NUS Performance & Global Standing,0.06,0.0
+BENEFIT_EVALUATION - Reputational & Brand Gains,0.06,0.0
+BENEFIT_EVALUATION - Skills and Arts Benefits,0.04,0.0
+BENEFIT_EVALUATION - Student Development and Problem Solving,0.04,0.0
+BENEFIT_EVALUATION - Student Opportunities & Benefits,0.0,0.22
+BENEFIT_EVALUATION - Student Well-being Benefits,0.08,0.0
+BENEFIT_EVALUATION - University Advancement & Benefits,0.08,0.0
+BENEFIT_EVALUATION - University Benefits: Societal Impact & Catalyst Role,0.08,0.0
+BENEFIT_EVALUATION - University Excellence and Reputation,0.04,0.0
+BENEFIT_EVALUATION - University Partnerships & Institutional Benefits,0.12,0.0
+BENEFIT_EVALUATION - Workforce Values & Well-being,0.04,0.0
+RISK_EVALUATION - Diminished University Experience & Opportunities,0.04,0.0
+RISK_EVALUATION - Job Market Uncertainty and Risks,0.04,0.0
+RISK_EVALUATION - Risk: Declining Quality & Prestige,0.04,0.0
+RISK_EVALUATION - Risk: External Pressures and Misalignment,0.04,0.0
+RISK_EVALUATION - Risks of Assessment,0.04,0.0
+RISK_EVALUATION - Student Challenges & Risks,0.04,0.0
+TREATMENT - Holistic Career Development,0.06,0.0
+TREATMENT - Supportive Treatment: Expansion and Improvement,0.0,0.38
+TREATMENT - Treatment: Balanced Approach,0.04,0.0
